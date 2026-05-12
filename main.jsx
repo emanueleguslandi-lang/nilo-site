@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
-import logo from './assets/nilo-logo.png';
+import logo from './nilo-logo.png';
 
 const apartments = [
   {
