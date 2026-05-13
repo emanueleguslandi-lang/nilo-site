@@ -17,7 +17,7 @@ const apartments = [
       en: 'The largest solution, ideal for families, professionals and long stays in the heart of Valentino.',
       fr: 'La solution la plus spacieuse, idéale pour les familles, les professionnels et les longs séjours au cœur du Valentino.'
     },
-    image: '/images/suite-1/suite-1-living.jpg'
+    image: '/suite-1-living.jpg'
   },
   {
     name: 'NILO Suite II',
@@ -52,13 +52,14 @@ const apartments = [
 ];
 
 const suiteOneImages = [
-  '/images/suite-1/suite-1-living.jpg',
-  '/images/suite-1/suite-1-bedroom-main.jpg',
-  '/images/suite-1/suite-1-bedroom-twin.jpg',
-  '/images/suite-1/suite-1-dining.jpg',
-  '/images/suite-1/suite-1-kitchen.jpg',
-  '/images/suite-1/suite-1-bathroom.jpg',
-  '/images/suite-1/suite-1-bedroom-view.jpg'
+  '/suite-1-living.jpg',
+  '/suite-1-bedroom-main.jpg',
+  '/suite-1-bedroom-twin.jpg',
+  '/suite-1-dining.jpg',
+  '/suite-1-kitchen.jpg',
+  '/suite-1-bathroom.jpg',
+  '/suite-1-bedroom-view.jpg'
+];
 ];
 
 const reviews = [
