@@ -60,7 +60,6 @@ const suiteOneImages = [
   '/suite-1-bathroom.jpg',
   '/suite-1-bedroom-view.jpg'
 ];
-];
 
 const reviews = [
   {
