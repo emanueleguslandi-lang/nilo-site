@@ -3,6 +3,15 @@ import { createRoot } from 'react-dom/client';
 import { Analytics } from '@vercel/analytics/react';
 import './styles.css';
 
+import logo from './nilo-logo.png';
+import suite1Living from './suite-1-living.jpg';
+import suite1BedroomMain from './suite-1-bedroom-main.jpg';
+import suite1BedroomTwin from './suite-1-bedroom-twin.jpg';
+import suite1Dining from './suite-1-dining.jpg';
+import suite1Kitchen from './suite-1-kitchen.jpg';
+import suite1Bathroom from './suite-1-bathroom.jpg';
+import suite1BedroomView from './suite-1-bedroom-view.jpg';
+
 const apartments = [
   {
     name: 'NILO Suite I',
@@ -17,7 +26,7 @@ const apartments = [
       en: 'The largest solution, ideal for families, professionals and long stays in the heart of Valentino.',
       fr: 'La solution la plus spacieuse, idéale pour les familles, les professionnels et les longs séjours au cœur du Valentino.'
     },
-    image: '/suite-1-living.jpg'
+    image: suite1Living
   },
   {
     name: 'NILO Suite II',
@@ -52,13 +61,13 @@ const apartments = [
 ];
 
 const suiteOneImages = [
-  '/suite-1-living.jpg',
-  '/suite-1-bedroom-main.jpg',
-  '/suite-1-bedroom-twin.jpg',
-  '/suite-1-dining.jpg',
-  '/suite-1-kitchen.jpg',
-  '/suite-1-bathroom.jpg',
-  '/suite-1-bedroom-view.jpg'
+  suite1Living,
+  suite1BedroomMain,
+  suite1BedroomTwin,
+  suite1Dining,
+  suite1Kitchen,
+  suite1Bathroom,
+  suite1BedroomView
 ];
 
 const reviews = [
@@ -238,7 +247,7 @@ function App() {
       <section className="hero">
         <nav className="nav">
           <a className="logo" href="#top" aria-label="NILO Home">
-            <img src="/nilo-logo.png" alt="NILO Luxury Accommodations" />
+            <img src={logo} alt="NILO Luxury Accommodations" />
             <p className="logo-address">{t.logoLine}</p>
           </a>
 
@@ -274,7 +283,11 @@ function App() {
 
           <div className="hero-photo-wrap">
             <div className="hero-photo">
-              <div className="hero-photo-inner">
+              <div className="hero-photo-inner"
+  style={{
+    backgroundImage: `linear-gradient(to top, rgba(0,0,0,.84), rgba(0,0,0,.18)), url(${suite1Living})`
+  }}
+>
                 <div className="review-card">
                   <p className="stars">★★★★★</p>
                   <p className="review-text">“{review.text}”</p>
