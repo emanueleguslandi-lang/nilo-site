@@ -22,9 +22,9 @@ const apartments = [
       fr: '3 chambres · 3 salles de bain · jusqu’à 8 voyageurs'
     },
     text: {
-      it: 'La soluzione più ampia, ideale per famiglie, professionisti e soggiorni lunghi nel cuore del Valentino.',
-      en: 'The largest solution, ideal for families, professionals and long stays in the heart of Valentino.',
-      fr: 'La solution la plus spacieuse, idéale pour les familles, les professionnels et les longs séjours au cœur du Valentino.'
+      it: 'La soluzione più ampia di NILO: spazi generosi, tre camere, tre bagni e ambienti pensati per famiglie, professionisti e soggiorni prolungati.',
+      en: 'The largest NILO solution: generous spaces, three bedrooms, three bathrooms and rooms designed for families, professionals and extended stays.',
+      fr: 'La solution la plus spacieuse de NILO : de grands espaces, trois chambres, trois salles de bain et des pièces pensées pour les familles, les professionnels et les séjours prolongés.'
     },
     image: suite1Living
   },
@@ -52,9 +52,9 @@ const apartments = [
       fr: 'jusqu’à 2 voyageurs'
     },
     text: {
-      it: 'Un monolocale intimo e funzionale per chi cerca tranquillità, comfort e una posizione ricercata.',
-      en: 'An intimate and functional studio for guests looking for calm, comfort and a refined location.',
-      fr: 'Un studio intime et fonctionnel pour ceux qui recherchent calme, confort et emplacement privilégié.'
+      it: 'Uno studio riservato e funzionale, ideale per soggiorni individuali o di coppia, con la stessa cura e lo stesso contesto delle suite NILO.',
+      en: 'A private and functional studio, ideal for individual or couple stays, with the same care and setting as the NILO suites.',
+      fr: 'Un studio réservé et fonctionnel, idéal pour les séjours individuels ou en couple, avec le même soin et le même contexte que les suites NILO.'
     },
     image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80'
   }
@@ -93,15 +93,23 @@ const dictionary = {
     nav: ['Posizione', 'Suite', 'Servizi', 'Partner', 'Contatti'],
     logoLine: 'Torino · Corso Federico Sclopis 6 · 10126',
     eyebrow: 'Torino · Corso Federico Sclopis 6 · 10126',
-    heroTitle: 'Tre soluzioni private, tra spazio, verde e quiete nel cuore del Valentino.',
+    heroTitle: 'Tre soluzioni private nel cuore del Valentino, tra spazio, verde e quiete.',
     heroText: 'NILO Luxury Accommodations offre due grandi suite e un monolocale curato a Torino, con vista sulla Fontana dei Dodici Mesi del Valentino. Una proposta pensata per chi cerca ospitalità calda, qualità, tranquillità e una gestione affidabile anche per soggiorni lunghi.',
     call: 'Chiama ora',
     agencies: 'Per agenzie',
     verified: 'Recensione verificata Airbnb',
+
     locationEyebrow: 'La posizione',
     locationTitle: 'Valentino, Torino. Una cornice che parla da sola.',
-    locationText: 'Le suite si trovano in Corso Federico Sclopis 6, in una delle zone più riconoscibili e tranquille della città: vicino al centro, comode alla metro, immerse nel verde e con vista sulla Fontana dei Dodici Mesi del Valentino.',
-    locationCards: ['Corso Federico Sclopis 6, 10126 Torino', 'Zona Valentino', 'Vista sulla Fontana dei Dodici Mesi', 'Comodo al centro e alla metro', 'Zona tranquilla e ben frequentata', 'Verde e quiete nel cuore della città'],
+    locationText: 'In Corso Federico Sclopis 6, NILO si trova in una delle zone più eleganti e riconoscibili di Torino: il Valentino. Verde, tranquillità, collegamenti comodi e vicinanza al centro rendono la posizione ideale sia per soggiorni di piacere sia per esigenze professionali.',
+    locationCards: [
+      'Corso Federico Sclopis 6, 10126 Torino',
+      'Zona Valentino',
+      'Vista sulla Fontana dei Dodici Mesi',
+      'Ben collegata al centro e alla metro',
+      'Zona tranquilla e ben frequentata',
+      'Verde e quiete nel cuore della città'
+    ],
     arrival: 'Come arrivare',
     portaNuova: 'Da Porta Nuova',
     portaNuovaText: 'Bus 67 verso zona Valentino, con fermata nelle vicinanze. In alternativa, metro M1 fino a Dante e breve passeggiata.',
@@ -109,6 +117,7 @@ const dictionary = {
     portaSusa: 'Da Porta Susa',
     portaSusaText: 'Metro M1 fino a Dante, poi circa 12 minuti a piedi verso Corso Federico Sclopis 6.',
     portaSusaTime: '20–25 min indicativi',
+
     promiseEyebrow: 'La nostra promessa',
     promiseTitle: 'Un servizio che parla attraverso i dettagli.',
     values: [
@@ -116,37 +125,61 @@ const dictionary = {
       ['Ospitalità calda', 'Ambienti eleganti, attenzione al dettaglio e disponibilità reale verso ogni ospite.'],
       ['Disponibilità', 'Risposte rapide e supporto pratico prima, durante e dopo la permanenza.']
     ],
+
     suiteEyebrow: 'Le suite',
-    suiteTitle: 'Due grandi suite e uno studio. Un’unica firma.',
+    suiteTitle: 'Tre spazi privati, un’unica esperienza NILO.',
     suiteIntro: 'La forza di NILO è la chiarezza della proposta: due appartamenti ampi, uno studio per massimo due persone, servizi completi, vista sul Valentino e una gestione pensata per offrire continuità, fiducia e qualità.',
-    garden: 'Il giardino è condiviso tra le tre unità NILO: uno spazio riservato e raccolto, pensato per offrire una sensazione di quiete e verde pur rimanendo in città.',
+    garden: 'Il giardino è condiviso tra le tre unità NILO: uno spazio raccolto e riservato, pensato per offrire un momento di quiete e verde nel cuore della città.',
+
     servicesEyebrow: 'Servizi',
-    servicesTitle: 'Comfort completo, percezione premium.',
+    servicesTitle: 'Servizi pensati per soggiorni senza pensieri.',
     servicesText: 'Ogni appartamento è pensato per offrire autonomia, comodità e una permanenza serena, sia per soggiorni brevi sia per esigenze professionali o temporanee.',
-    services: ['Wi‑Fi', 'Parcheggio comodo', 'Vicino metro e centro', 'Pulizia professionale', 'Cucina attrezzata', 'Giardino condiviso', 'Lavatrice', 'Stesso palazzo', 'Soggiorni lunghi', 'Vista Valentino'],
+    services: [
+      'Wi-Fi',
+      'Cucina attrezzata',
+      'Pulizia professionale',
+      'Lavatrice',
+      'Giardino condiviso',
+      'Parcheggi nelle vicinanze',
+      'Metro e centro facilmente raggiungibili',
+      'Tre unità nello stesso stabile',
+      'Adatto a soggiorni prolungati',
+      'Vista sul Valentino'
+    ],
+
     partnerEyebrow: 'Per agenzie e partner',
     partnerTitle: 'Una soluzione chiara per chi cerca case affidabili a Torino.',
     partnerText: 'NILO è già presente sulle principali piattaforme di affitto breve, ma nasce anche per creare relazioni dirette con agenzie e realtà che cercano appartamenti curati per clienti, professionisti, trasferte o soggiorni temporanei.',
     stats: ['Soluzioni nello stesso palazzo', 'Gestione unica e diretta', 'Zona Valentino, vicino al centro'],
+
     contactEyebrow: 'Contatti',
-    contactTitle: 'Parliamo della vostra prossima esigenza abitativa.',
+    contactTitle: 'Contattaci per disponibilità e collaborazioni.',
     contactText: 'Contattaci per disponibilità, collaborazioni con agenzie o richieste dedicate. Ti risponderemo con una proposta chiara e adatta al tipo di soggiorno.',
     form: ['Nome e cognome', 'Email o telefono', 'Date o periodo indicativo', 'Tipo di richiesta', 'Disponibilità per soggiorno', 'Collaborazione agenzia', 'Richiesta per cliente', 'Altro', 'Messaggio', 'Invia richiesta'],
-    formNote: 'Il modulo è una base grafica: potrà essere collegato a WhatsApp, email o backend.'
+    formNote: 'Ti risponderemo il prima possibile. Per richieste urgenti, contattaci telefonicamente.'
   },
+
   en: {
     nav: ['Location', 'Suites', 'Services', 'Partners', 'Contact'],
     logoLine: 'Turin · Corso Federico Sclopis 6 · 10126',
     eyebrow: 'Turin · Corso Federico Sclopis 6 · 10126',
-    heroTitle: 'Three private stays, surrounded by space, greenery and calm in the heart of Valentino.',
+    heroTitle: 'Three private stays in the heart of Valentino, surrounded by space, greenery and calm.',
     heroText: 'NILO Luxury Accommodations offers two large suites and a refined studio in Turin, with views of the Fontana dei Dodici Mesi in Valentino. A proposal designed for guests seeking warm hospitality, quality, calm and reliable management, also for long stays.',
     call: 'Call now',
     agencies: 'For agencies',
     verified: 'Verified Airbnb review',
+
     locationEyebrow: 'Location',
     locationTitle: 'Valentino, Turin. A setting that speaks for itself.',
-    locationText: 'The suites are located in Corso Federico Sclopis 6, in one of the city’s most recognisable and peaceful areas: close to the centre, convenient for the metro, surrounded by greenery and with views of the Fontana dei Dodici Mesi in Valentino.',
-    locationCards: ['Corso Federico Sclopis 6, 10126 Turin', 'Valentino area', 'View of the Fontana dei Dodici Mesi', 'Convenient for the centre and metro', 'Quiet and well-regarded area', 'Greenery and calm in the city'],
+    locationText: 'Located in Corso Federico Sclopis 6, NILO sits in one of Turin’s most elegant and recognisable areas: Valentino. Greenery, calm, convenient connections and proximity to the city centre make the location ideal for both leisure stays and professional needs.',
+    locationCards: [
+      'Corso Federico Sclopis 6, 10126 Turin',
+      'Valentino area',
+      'View of the Fontana dei Dodici Mesi',
+      'Well connected to the centre and metro',
+      'Quiet and well-regarded area',
+      'Greenery and calm in the city'
+    ],
     arrival: 'How to arrive',
     portaNuova: 'From Porta Nuova',
     portaNuovaText: 'Bus 67 towards the Valentino area, with a nearby stop. Alternatively, metro M1 to Dante followed by a short walk.',
@@ -154,6 +187,7 @@ const dictionary = {
     portaSusa: 'From Porta Susa',
     portaSusaText: 'Metro M1 to Dante, then about 12 minutes on foot to Corso Federico Sclopis 6.',
     portaSusaTime: 'Approx. 20–25 min',
+
     promiseEyebrow: 'Our promise',
     promiseTitle: 'A service expressed through details.',
     values: [
@@ -161,37 +195,61 @@ const dictionary = {
       ['Warm hospitality', 'Elegant spaces, attention to detail and genuine availability for every guest.'],
       ['Availability', 'Quick replies and practical support before, during and after the stay.']
     ],
+
     suiteEyebrow: 'The suites',
-    suiteTitle: 'Two large suites and one studio. One clear signature.',
+    suiteTitle: 'Three private spaces, one NILO experience.',
     suiteIntro: 'NILO’s strength is the clarity of its offer: two spacious apartments, one studio for up to two guests, complete services, views of Valentino and management designed to provide continuity, trust and quality.',
-    garden: 'The garden is shared between the three NILO units: a reserved and intimate space designed to offer calm and greenery while staying in the city.',
+    garden: 'The garden is shared between the three NILO units: a reserved and intimate space designed to offer a moment of calm and greenery in the heart of the city.',
+
     servicesEyebrow: 'Services',
-    servicesTitle: 'Complete comfort, premium perception.',
+    servicesTitle: 'Services designed for worry-free stays.',
     servicesText: 'Each apartment is designed to offer autonomy, comfort and a peaceful stay, for both short visits and professional or temporary needs.',
-    services: ['Wi‑Fi', 'Convenient parking', 'Close to metro and centre', 'Professional cleaning', 'Equipped kitchen', 'Shared garden', 'Washing machine', 'Same building', 'Long stays', 'Valentino view'],
+    services: [
+      'Wi-Fi',
+      'Equipped kitchen',
+      'Professional cleaning',
+      'Washing machine',
+      'Shared garden',
+      'Parking nearby',
+      'Metro and centre easily reachable',
+      'Three units in the same building',
+      'Suitable for extended stays',
+      'Valentino view'
+    ],
+
     partnerEyebrow: 'For agencies and partners',
     partnerTitle: 'A clear solution for those seeking reliable homes in Turin.',
     partnerText: 'NILO is already present on the main short-rental platforms, but also aims to build direct relationships with agencies and companies seeking curated apartments for clients, professionals, business trips or temporary stays.',
     stats: ['Solutions in the same building', 'Single direct management', 'Valentino area, close to the centre'],
+
     contactEyebrow: 'Contact',
-    contactTitle: 'Let’s talk about your next housing need.',
+    contactTitle: 'Contact us for availability and collaborations.',
     contactText: 'Contact us for availability, agency collaborations or dedicated requests. We will reply with a clear proposal suited to the type of stay.',
     form: ['Full name', 'Email or phone', 'Approximate dates or period', 'Request type', 'Stay availability', 'Agency collaboration', 'Client request', 'Other', 'Message', 'Send request'],
-    formNote: 'This form is a graphic base: it can be connected to WhatsApp, email or a backend.'
+    formNote: 'We will reply as soon as possible. For urgent requests, please contact us by phone.'
   },
+
   fr: {
     nav: ['Emplacement', 'Suites', 'Services', 'Partenaires', 'Contact'],
     logoLine: 'Turin · Corso Federico Sclopis 6 · 10126',
     eyebrow: 'Turin · Corso Federico Sclopis 6 · 10126',
-    heroTitle: 'Trois séjours privés, entre espace, verdure et calme au cœur du Valentino.',
+    heroTitle: 'Trois séjours privés au cœur du Valentino, entre espace, verdure et calme.',
     heroText: 'NILO Luxury Accommodations propose deux grandes suites et un studio soigné à Turin, avec vue sur la Fontana dei Dodici Mesi du Valentino. Une proposition pensée pour ceux qui recherchent une hospitalité chaleureuse, la qualité, le calme et une gestion fiable, même pour les longs séjours.',
     call: 'Appeler',
     agencies: 'Pour agences',
     verified: 'Avis vérifié Airbnb',
+
     locationEyebrow: 'Emplacement',
     locationTitle: 'Valentino, Turin. Un cadre qui parle de lui-même.',
-    locationText: 'Les suites se trouvent au Corso Federico Sclopis 6, dans l’un des quartiers les plus reconnaissables et calmes de la ville : proche du centre, pratique pour le métro, entouré de verdure et avec vue sur la Fontana dei Dodici Mesi du Valentino.',
-    locationCards: ['Corso Federico Sclopis 6, 10126 Turin', 'Quartier Valentino', 'Vue sur la Fontana dei Dodici Mesi', 'Pratique pour le centre et le métro', 'Quartier calme et bien fréquenté', 'Verdure et tranquillité en ville'],
+    locationText: 'Situé au Corso Federico Sclopis 6, NILO se trouve dans l’un des quartiers les plus élégants et reconnaissables de Turin : le Valentino. Verdure, tranquillité, liaisons pratiques et proximité du centre rendent l’emplacement idéal pour les séjours de loisirs comme pour les besoins professionnels.',
+    locationCards: [
+      'Corso Federico Sclopis 6, 10126 Turin',
+      'Quartier Valentino',
+      'Vue sur la Fontana dei Dodici Mesi',
+      'Bien relié au centre et au métro',
+      'Quartier calme et bien fréquenté',
+      'Verdure et tranquillité en ville'
+    ],
     arrival: 'Comment arriver',
     portaNuova: 'Depuis Porta Nuova',
     portaNuovaText: 'Bus 67 vers le quartier Valentino, avec un arrêt à proximité. Sinon, métro M1 jusqu’à Dante puis courte promenade.',
@@ -199,6 +257,7 @@ const dictionary = {
     portaSusa: 'Depuis Porta Susa',
     portaSusaText: 'Métro M1 jusqu’à Dante, puis environ 12 minutes à pied jusqu’au Corso Federico Sclopis 6.',
     portaSusaTime: 'Environ 20–25 min',
+
     promiseEyebrow: 'Notre promesse',
     promiseTitle: 'Un service qui se révèle dans les détails.',
     values: [
@@ -206,23 +265,38 @@ const dictionary = {
       ['Hospitalité chaleureuse', 'Des espaces élégants, le souci du détail et une disponibilité réelle pour chaque invité.'],
       ['Disponibilité', 'Réponses rapides et soutien pratique avant, pendant et après le séjour.']
     ],
+
     suiteEyebrow: 'Les suites',
-    suiteTitle: 'Deux grandes suites et un studio. Une seule signature.',
+    suiteTitle: 'Trois espaces privés, une seule expérience NILO.',
     suiteIntro: 'La force de NILO est la clarté de son offre : deux grands appartements, un studio pour deux personnes maximum, des services complets, une vue sur le Valentino et une gestion pensée pour offrir continuité, confiance et qualité.',
-    garden: 'Le jardin est partagé entre les trois unités NILO : un espace réservé et intime, pensé pour offrir calme et verdure tout en restant en ville.',
+    garden: 'Le jardin est partagé entre les trois unités NILO : un espace réservé et intime, pensé pour offrir un moment de calme et de verdure au cœur de la ville.',
+
     servicesEyebrow: 'Services',
-    servicesTitle: 'Confort complet, perception premium.',
+    servicesTitle: 'Des services pensés pour des séjours sans souci.',
     servicesText: 'Chaque appartement est pensé pour offrir autonomie, confort et un séjour serein, aussi bien pour les courts séjours que pour les besoins professionnels ou temporaires.',
-    services: ['Wi‑Fi', 'Parking pratique', 'Proche métro et centre', 'Nettoyage professionnel', 'Cuisine équipée', 'Jardin partagé', 'Lave-linge', 'Même immeuble', 'Longs séjours', 'Vue Valentino'],
+    services: [
+      'Wi-Fi',
+      'Cuisine équipée',
+      'Nettoyage professionnel',
+      'Lave-linge',
+      'Jardin partagé',
+      'Parkings à proximité',
+      'Métro et centre facilement accessibles',
+      'Trois unités dans le même immeuble',
+      'Adapté aux séjours prolongés',
+      'Vue sur le Valentino'
+    ],
+
     partnerEyebrow: 'Pour agences et partenaires',
     partnerTitle: 'Une solution claire pour ceux qui cherchent des logements fiables à Turin.',
     partnerText: 'NILO est déjà présent sur les principales plateformes de location courte durée, mais souhaite aussi créer des relations directes avec les agences et structures recherchant des appartements soignés pour clients, professionnels, déplacements ou séjours temporaires.',
     stats: ['Solutions dans le même immeuble', 'Gestion unique et directe', 'Quartier Valentino, proche du centre'],
+
     contactEyebrow: 'Contact',
-    contactTitle: 'Parlons de votre prochain besoin d’hébergement.',
+    contactTitle: 'Contactez-nous pour disponibilités et collaborations.',
     contactText: 'Contactez-nous pour disponibilités, collaborations avec agences ou demandes dédiées. Nous répondrons avec une proposition claire et adaptée au type de séjour.',
     form: ['Nom et prénom', 'Email ou téléphone', 'Dates ou période indicative', 'Type de demande', 'Disponibilité pour séjour', 'Collaboration agence', 'Demande pour client', 'Autre', 'Message', 'Envoyer la demande'],
-    formNote: 'Ce formulaire est une base graphique : il pourra être connecté à WhatsApp, email ou backend.'
+    formNote: 'Nous répondrons dès que possible. Pour les demandes urgentes, contactez-nous par téléphone.'
   }
 };
 
@@ -260,9 +334,9 @@ function App() {
 
           <div className="lang" aria-label="Language selector">
             {[
-              ['it', 'it'],
-              ['en', 'en'],
-              ['fr', 'fr']
+              ['it', '🇮🇹'],
+              ['en', '🇬🇧'],
+              ['fr', '🇫🇷']
             ].map(([code, flag]) => (
               <button key={code} type="button" onClick={() => setLang(code)} className={lang === code ? 'active' : ''}>{flag}</button>
             ))}
@@ -276,17 +350,18 @@ function App() {
             <p className="lead">{t.heroText}</p>
             <div className="actions">
               <a className="btn primary" href="tel:+393931965071">{t.call}</a>
-            <a className="btn secondary" href="#partner">{t.agencies}</a>
+              <a className="btn secondary" href="#partner">{t.agencies}</a>
             </div>
           </div>
 
           <div className="hero-photo-wrap">
             <div className="hero-photo">
-              <div className="hero-photo-inner"
-  style={{
-    backgroundImage: `linear-gradient(to top, rgba(0,0,0,.84), rgba(0,0,0,.18)), url(${suite1Living})`
-  }}
->
+              <div
+                className="hero-photo-inner"
+                style={{
+                  backgroundImage: `linear-gradient(to top, rgba(0,0,0,.84), rgba(0,0,0,.18)), url(${suite1Living})`
+                }}
+              >
                 <div className="review-card">
                   <p className="stars">★★★★★</p>
                   <p className="review-text">“{review.text}”</p>
