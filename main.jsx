@@ -248,7 +248,6 @@ function App() {
         <nav className="nav">
           <a className="logo" href="#top" aria-label="NILO Home">
             <img src={logo} alt="NILO Luxury Accommodations" />
-            <p className="logo-address">{t.logoLine}</p>
           </a>
 
           <div className="nav-links">
