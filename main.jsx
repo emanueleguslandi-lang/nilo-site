@@ -261,8 +261,8 @@ function App() {
           <div className="lang" aria-label="Language selector">
             {[
               ['it', 'it'],
-              ['en', '🇬🇧'],
-              ['fr', '🇫🇷']
+              ['en', 'en'],
+              ['fr', 'fr']
             ].map(([code, flag]) => (
               <button key={code} type="button" onClick={() => setLang(code)} className={lang === code ? 'active' : ''}>{flag}</button>
             ))}
