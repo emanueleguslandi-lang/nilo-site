@@ -37,17 +37,17 @@ body {
 
 .nav {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 560px 1fr auto;
   align-items: center;
-  gap: 32px;
+  gap: 40px;
   padding: 32px 24px 20px;
-  max-width: 1180px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .logo {
   display: block;
-  width: 420px;
+  width: 560px;
   max-width: 100%;
   padding: 0;
   margin: 0;
@@ -236,7 +236,12 @@ form button { width: 100%; border: 1px solid var(--gold); background: var(--gold
 
 @media (max-width: 900px) {
   .nav, .hero-grid, .section-grid, .service-panel, .contact-grid { grid-template-columns: 1fr; }
-  .logo { min-width: auto; width: 100%; }
+  .logo {
+  min-width: auto;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
   .nav-links { gap:18px 22px; }
   .promise-cards, .suite-grid { grid-template-columns: 1fr; }
   .cards, .arrival-grid, .service-list { grid-template-columns: 1fr; }
