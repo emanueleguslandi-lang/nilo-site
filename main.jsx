@@ -277,7 +277,7 @@ function App() {
             <p className="lead">{t.heroText}</p>
             <div className="actions">
               <a className="btn primary" href="tel:+393931965071">{t.call}</a>
-              <a className="btn secondary" href="#partner">{t.agencies}</a>
+              <a>
             </div>
           </div>
 
