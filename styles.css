@@ -47,23 +47,28 @@ body {
 
 .logo {
   display: block;
-  border: 1px solid rgba(212,175,55,.45);
-  background: var(--black);
-  padding: 16px 24px;
+  width: 420px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
   text-decoration: none;
-  box-shadow: 0 22px 70px rgba(0,0,0,.45);
   color: var(--ivory);
-  text-align: center;
-  min-width: 260px;
 }
-.logo img { display:block; width: 230px; max-width:100%; height:auto; margin:0 auto; object-fit:contain; }
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
 .logo-address {
-  margin: 12px 0 0;
-  color: var(--gold);
-  font-size: 10px;
-  line-height: 1.8;
-  letter-spacing: .22em;
-  text-transform: uppercase;
+  display: none;
 }
 
 .nav-links {
@@ -246,19 +251,25 @@ form button { width: 100%; border: 1px solid var(--gold); background: var(--gold
     padding: 22px 18px 10px;
   }
 
-  .logo {
-    min-width: 0;
-    width: 100%;
-    padding: 18px 20px;
-  }
+ .logo {
+  min-width: 0;
+  width: 100%;
+  max-width: 320px;
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
 
-  .logo img {
-    max-width: 220px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-  }
+.logo img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
 
   .nav-links {
     gap: 14px 20px;
