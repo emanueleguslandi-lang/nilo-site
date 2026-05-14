@@ -260,7 +260,7 @@ function App() {
 
           <div className="lang" aria-label="Language selector">
             {[
-              ['it', '🇮🇹'],
+              ['it', 'it'],
               ['en', '🇬🇧'],
               ['fr', '🇫🇷']
             ].map(([code, flag]) => (
